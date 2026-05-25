@@ -15,7 +15,7 @@
 
                 {{ isset($linha->id_curso) && $linha->id_curso == $curso->id ? 'selected' : '' }}>
 
-                {{ $curso->nome }}
+                {{ $curso->titulo }}
 
             </option>
 
